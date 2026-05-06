@@ -38,22 +38,6 @@ This project leverages machine learning algorithms to provide insights into stud
   - Support Vector Machine (SVM) ✅ **Selected**
 - **Result**: SVM demonstrated superior performance in grade prediction and was selected as the final model
 
----
-
-## 📊 Model Performance
-
-The project included comprehensive evaluation of multiple algorithms:
-
-| Task | Model | Status |
-|------|-------|--------|
-| Classification | Logistic Regression | ✓ Tested |
-| Classification | Decision Tree | ✓ Tested |
-| Classification | Random Forest | ✓ Tested |
-| Classification | **SVM** | ✅ **Selected** |
-| Regression | Linear Regression | ✓ Tested |
-| Regression | Decision Tree | ✓ Tested |
-| Regression | **SVM** | ✅ **Selected** |
-
 Detailed accuracy metrics and performance comparisons are available in the ML.ipynb notebook.
 
 ---
@@ -77,7 +61,7 @@ Student Performance Predictiion/
 ├── svm_pass_model.joblib            # Trained SVM model for pass/fail prediction
 ├── svm_final_grade_model.joblib     # Trained SVM model for grade prediction
 ├── data.txt                          # Dataset source reference
-├── summary.png                       # Results visualization
+├── summary.png                       # Models Summary 
 └── README.md                         # Project documentation
 ```
 
@@ -105,10 +89,6 @@ pip install scikit-learn pandas numpy matplotlib seaborn streamlit joblib
    ```bash
    jupyter notebook ML.ipynb
    ```
-
-2. **Use the Interactive Web App**: Access the Streamlit application
-   - **Live Demo**: [Student Performance Prediction App](https://machine-learning---project-6pqvtojrvisumxepx8chay.streamlit.app/)
-
 ---
 
 ## 📱 Interactive Application
@@ -169,13 +149,6 @@ The ML.ipynb notebook includes:
 
 ---
 
-## 👨‍💻 Author
-
-**Malak-A7med**  
-[GitHub Profile](https://github.com/Malak-A7med)
-
----
-
 ## 📄 License
 
 This project is open source and available for educational purposes.
@@ -185,12 +158,6 @@ This project is open source and available for educational purposes.
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome! Feel free to open an issue or submit a pull request.
-
----
-
-## 📞 Contact & Support
-
-For questions or suggestions about this project, please reach out through GitHub.
 
 ---
 
