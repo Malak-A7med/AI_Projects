@@ -43,29 +43,6 @@ Text analysis, sentiment analysis, language models, and text generation.
 
 ### 🎯 Convolutional Neural Networks (CNN)
 Image classification, feature extraction, and deep learning vision models.
-
-## Projects
-
-### [Student Performance Prediction](./Student%20Performance%20Predictiion)
-**Category:** 📊 Machine Learning (ML)  
-**Description:** Binary classification and regression models to predict student pass/fail status and final grades using supervised learning
-
-**Technologies:** Python, Scikit-learn, Pandas, NumPy, Streamlit, SVM
-
-**Key Features:**
-- ✅ SVM model for pass/fail classification
-- ✅ SVM model for grade prediction
-- ✅ Interactive web application (Streamlit)
-- ✅ Comprehensive model comparison and evaluation
-
-**Quick Start:**
-```bash
-cd "Student Performance Predictiion"
-jupyter notebook ML.ipynb
-```
-
-**Live Demo:** [Streamlit App](https://machine-learning---project-6pqvtojrvisumxepx8chay.streamlit.app/)
-
 ---
 
 ### [Project Template: Project Name]
