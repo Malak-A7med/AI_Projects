@@ -43,6 +43,7 @@ Text analysis, sentiment analysis, language models, and text generation.
 
 ### 🎯 Convolutional Neural Networks (CNN)
 Image classification, feature extraction, and deep learning vision models.
+
 ---
 
 ### [Project Template: Project Name]
