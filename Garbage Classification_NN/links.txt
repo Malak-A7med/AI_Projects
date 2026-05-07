@@ -1,0 +1,3 @@
+repoo >>>> https://github.com/Nesma-h/NN-Project.git
+
+data >>>> https://www.kaggle.com/datasets/karansolanki01/garbage-classification
