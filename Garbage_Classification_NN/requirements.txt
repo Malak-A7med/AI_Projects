@@ -3,4 +3,5 @@ numpy
 pillow
 matplotlib
 plotly
+tensorflow
 opencv-python
