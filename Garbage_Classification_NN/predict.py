@@ -1,11 +1,15 @@
 import tensorflow as tf
 import numpy as np
+import os
 
 classes = ['Battery', 'Cardboard', 'Clothes', 'Glass', 'Metal', 'Paper', 'Plastic']
 
-cnn_model = tf.keras.models.load_model(
+model_path = os.path.join(
+    os.path.dirname(__file__),
     "CNN_Model_Architecture/garbage_cnn_model.keras"
 )
+
+cnn_model = tf.keras.models.load_model(model_path)
 
 mobilenet_model = tf.keras.models.load_model(
     "MOBILENETV2/mobilenet_v2_final.keras"
