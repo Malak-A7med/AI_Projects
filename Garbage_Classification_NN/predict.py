@@ -5,11 +5,11 @@ import os
 classes = ['Battery', 'Cardboard', 'Clothes', 'Glass', 'Metal', 'Paper', 'Plastic']
 
 cnn_model = tf.keras.models.load_model(
-    "CNN_model/garbage_cnn_model.keras"
+    "Garbage_Classification_NN/CNN_model/garbage_cnn_model.keras"
 )
 
 mobilenet_model = tf.keras.models.load_model(
-    "MobileNet_v2_model/mobilenet_v2_final.keras"
+    "Garbage_Classification_NN/MobileNet_v2_model/mobilenet_v2_final.keras"
 )
 
 def predict_image(processed_image, model_name):
