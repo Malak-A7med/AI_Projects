@@ -172,7 +172,7 @@ Both models were evaluated on the held-out test set using accuracy, loss, classi
 
 ## Live Demo
 
-🚀 **Try the app here:** [https://nn-project-wezk8czhyz9xhohvpyyfhf.streamlit.app/](https://nn-project-wezk8czhyz9xhohvpyyfhf.streamlit.app/)
+🚀 **Try the app here:** [https://garbageclassification13720230000.streamlit.app/](https://garbageclassification13720230000.streamlit.app/)
 
 Upload any image of garbage and the app will:
 - Run it through both models
