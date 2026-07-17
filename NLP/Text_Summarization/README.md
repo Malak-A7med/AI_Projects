@@ -117,3 +117,7 @@ The dataset (`data.csv`) contains two columns:
 ## 📄 License
 
 This project is released for educational purposes. Feel free to fork, modify, and build on it.
+
+## 📄 Streamlit
+
+[🚀 Try the App](https://textsummarization-dv2yvdjyutxubqcr2txcak.streamlit.app/)
