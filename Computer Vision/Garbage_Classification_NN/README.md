@@ -1,4 +1,4 @@
-# 🗑️ Garbage Classification — CNN Project
+# 🗑️ Garbage Classification — CNN vs MobileNetV2
 
 > An image classification system that identifies garbage into 7 categories using two deep learning models, with a live interactive web app deployed on Streamlit.
 
