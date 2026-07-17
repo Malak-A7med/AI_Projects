@@ -1,4 +1,4 @@
-# 🗑️ Garbage Classification — Neural Network Project
+# 🗑️ Garbage Classification — CNN Project
 
 > An image classification system that identifies garbage into 7 categories using two deep learning models, with a live interactive web app deployed on Streamlit.
 
