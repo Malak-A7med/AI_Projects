@@ -1,15 +1,22 @@
 import tensorflow as tf
 import numpy as np
+import os
 
 classes = ['Battery', 'Cardboard', 'Clothes', 'Glass', 'Metal', 'Paper', 'Plastic']
 
+
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+
 cnn_model = tf.keras.models.load_model(
-    "CNN_model/garbage_cnn_model.keras"
+    os.path.join(BASE_DIR, "CNN_model", "garbage_cnn_model.keras")
 )
 
+
 mobilenet_model = tf.keras.models.load_model(
-    "MobileNet_v2_model/mobilenet_v2_final.keras"
+    os.path.join(BASE_DIR, "MobileNet_v2_model", "mobilenet_v2_final.keras")
 )
+
 
 def predict_image(processed_image, model_name):
 
@@ -21,9 +28,7 @@ def predict_image(processed_image, model_name):
     prediction = model.predict(processed_image)
 
     predicted_index = np.argmax(prediction)
-
     confidence = np.max(prediction)
-
     predicted_class = classes[predicted_index]
 
     return predicted_class, confidence, prediction[0]
