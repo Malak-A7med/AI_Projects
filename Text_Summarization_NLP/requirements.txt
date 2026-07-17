@@ -1,9 +1,0 @@
-nltk
-scikit-learn
-pandas
-numpy
-sumy
-matplotlib
-streamlit
-torch
-transformers
