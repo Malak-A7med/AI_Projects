@@ -2,7 +2,7 @@
 
 > An image classification system that identifies garbage into 7 categories using two deep learning models, with a live interactive web app deployed on Streamlit.
 
-[![Streamlit App](https://garbageclassification13720230000.streamlit.app/)
+[![Streamlit App](https://garbageclassification137202300000000.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
 
