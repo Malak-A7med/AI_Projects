@@ -1,28 +1,146 @@
-# Hotel Cancellation Predictor — Streamlit App
+# 🏨 Hotel Booking Cancellation Predictor
 
-## هيا تشغّليه ازاي
+## 🚀 Live Demo
 
-1. شغّلي آخر خلية في النوتبوك (`Save The Model`) عشان يتحفظلك:
-   - `hotel_model.pkl`
-   - `preprocessor.pkl`
-   - `label_encoder.pkl`
+Try the deployed application here:
 
-2. حطي الـ 3 ملفات دول في نفس الفولدر اللي فيه `app.py`.
+🔗 **Streamlit App:** https://hotelbookingcancellationprediction2772026.streamlit.app/
 
-3. ثبّتي المكتبات المطلوبة:
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
 
-4. شغّلي التطبيق:
-   ```bash
-   streamlit run app.py
-   ```
+## Overview
 
-5. هتفتح تلقائي في المتصفح على `http://localhost:8501`.
+Hotel Booking Cancellation Predictor is a Machine Learning web application that predicts whether a hotel reservation is likely to be canceled based on booking information provided by the user.
 
-## الفكرة
+The application is powered by a trained **XGBoost Classifier** and deployed using **Streamlit**. It provides an interactive dashboard that displays the prediction result along with the cancellation probability.
 
-- بتدخّلي بيانات الحجز من الشريط الجانبي (عدد الضيوف، نوع الغرفة، السعر، الـ lead time...).
-- الموديل (XGBoost المُدرّب في النوتبوك) بيتنبأ باحتمالية الإلغاء.
-- فيه Gauge تفاعلي بيوضح النسبة، وتفسير SHAP بيوضح ليه الموديل وصل للقرار ده.
+---
+
+## Features
+
+- Predict hotel booking cancellation status.
+- Display cancellation probability using an interactive gauge chart.
+- Simple and user-friendly interface.
+- Automatic feature engineering from the selected arrival date.
+- Interactive booking summary.
+- Real-time prediction using a trained XGBoost model.
+
+---
+
+## Machine Learning Pipeline
+
+The model was developed following a complete machine learning workflow:
+
+- Data Understanding
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering:
+  - Created new meaningful features to improve model performance.
+- Data Visualization
+- Data Preprocessing:
+  - Standard Scaling
+  - One-Hot Encoding
+- Model Training
+- Hyperparameter Tuning
+- Model Evaluation
+- Model Deployment using Streamlit
+
+---
+
+## Input Features
+
+The prediction is based on several booking attributes, including:
+
+- Number of Adults
+- Number of Children
+- Weekend Nights
+- Week Nights
+- Meal Plan
+- Room Type
+- Lead Time
+- Arrival Date
+- Market Segment
+- Parking Requirement
+- Repeated Guest
+- Previous Cancellations
+- Previous Completed Bookings
+- Average Price per Room
+- Number of Special Requests
+
+---
+
+## Model Performance
+
+| Metric | Score |
+|---------|------:|
+| Training Accuracy | 92% |
+| Test Accuracy | 91% |
+| Precision | 92% |
+| Recall | 95% |
+| F1-Score | 93% |
+| ROC-AUC | 96.2% |
+
+The model achieved strong predictive performance while maintaining good generalization between training and testing datasets.
+
+---
+
+## Technologies Used
+
+- Python
+- Streamlit
+- XGBoost
+- Scikit-learn
+- Pandas
+- NumPy
+- Plotly
+- Joblib
+
+
+---
+## Model Development and Comparison
+
+13 classification models were trained and compared, including:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Extra Trees
+- SVM
+- KNN
+- Naive Bayes
+- Gradient Boosting
+- XGBoost
+- LightGBM
+- CatBoost
+- AdaBoost
+- HistGradient Boosting
+
+Models were evaluated using Accuracy, Precision, Recall, F1-Score, Balanced Accuracy, and ROC-AUC.
+
+**XGBoost Classifier** was selected as the final model due to its best overall performance.
+
+---
+
+## Application Preview
+
+The application allows users to enter booking information through an interactive interface and instantly receive:
+
+- Booking cancellation prediction.
+- Cancellation probability.
+- Interactive probability visualization.
+- Booking summary.
+
+---
+
+## Deployment
+
+The application was deployed using **Streamlit Cloud**.
+
+🔗 **Live Application:**  
+https://hotelbookingcancellationprediction2772026.streamlit.app/
+
+---
+
+## Author
+
+**Malak Ahmed**
